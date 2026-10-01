@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="concept-er-stage1" name="第1段階_配置のみ">
+    <mxGraphModel dx="1030" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;" value="KAKUU WMS 概念ER図（第1段階：大分類／配置のみ）" vertex="1">
+          <mxGeometry height="40" width="620" x="60" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="product" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;" value="商品" vertex="1">
+          <mxGeometry height="80" width="180" x="100" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="purchase" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;" value="仕入れ" vertex="1">
+          <mxGeometry height="80" width="180" x="400" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="receiving" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;" value="入荷" vertex="1">
+          <mxGeometry height="80" width="180" x="730" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="inventory" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;" value="在庫" vertex="1">
+          <mxGeometry height="80" width="180" x="400" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="shipping" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;" value="出荷" vertex="1">
+          <mxGeometry height="80" width="180" x="730" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="location" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;" value="ロケーション" vertex="1">
+          <mxGeometry height="80" width="180" x="100" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="user" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;" value="ユーザー" vertex="1">
+          <mxGeometry height="80" width="180" x="730" y="295" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
