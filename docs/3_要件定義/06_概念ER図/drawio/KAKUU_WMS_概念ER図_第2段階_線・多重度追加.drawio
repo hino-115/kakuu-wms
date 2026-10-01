@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="ChatGPT">
   <diagram id="concept-er-stage1" name="第1段階_配置のみ">
-    <mxGraphModel dx="1144" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1084" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;" value="KAKUU WMS 概念ER図（第2段階：主要エンティティ分割／配置のみ）" vertex="1">
-          <mxGeometry height="40" width="620" x="60" y="30" as="geometry" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;" value="KAKUU WMS 概念ER図（第2段階：主要エンティティ分割／線多重度の追加）" vertex="1">
+          <mxGeometry height="40" width="760" x="60" y="30" as="geometry" />
         </mxCell>
         <mxCell id="product" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;" value="商品" vertex="1">
           <mxGeometry height="80" width="180" x="90" y="334" as="geometry" />

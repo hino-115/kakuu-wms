@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="ChatGPT">
   <diagram id="concept-er-stage1" name="第3段階_仮配置_線・多重度">
-    <mxGraphModel dx="1288" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1450" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="858" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1450" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -147,7 +147,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rel_8" edge="1" parent="1" source="product" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="shipping_detail" value="">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="374.06" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="rel_8_s" connectable="0" parent="rel_8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;" value="1" vertex="1">
           <mxGeometry relative="1" x="-0.82" as="geometry">
@@ -264,9 +268,6 @@
         <mxCell id="rel_16_s" connectable="0" parent="rel_16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
           <mxGeometry relative="1" x="-0.82" as="geometry" />
         </mxCell>
-        <mxCell id="rel_16_t" connectable="0" parent="rel_16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
-          <mxGeometry relative="1" x="0.82" as="geometry" />
-        </mxCell>
         <mxCell id="rel_17" edge="1" parent="1" source="shipping_detail" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.35;entryDx=0;entryDy=0;" target="picking">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -312,6 +313,11 @@
         </mxCell>
         <mxCell id="rel_20_t" connectable="0" parent="rel_20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="0..*" vertex="1">
           <mxGeometry relative="1" x="0.82" as="geometry" />
+        </mxCell>
+        <mxCell id="SAzpTPiaHNi72LG7OVDB-2" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;" value="0..*" vertex="1">
+          <mxGeometry x="330" y="620" as="geometry">
+            <mxPoint x="-40" y="10" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
