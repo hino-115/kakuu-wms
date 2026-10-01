@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="kakuu-p7-draft" name="P7_認証管理_草案">
+    <mxGraphModel dx="2060" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3100" pageHeight="980" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#17365D;strokeColor=#17365D;fontColor=#FFFFFF;fontStyle=1;fontSize=28;align=left;verticalAlign=middle;spacingLeft=18;" value="KAKUU WMS｜詳細DFD P7 認証管理" vertex="1">
+          <mxGeometry height="64" width="2320" x="40" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D9EAF7;strokeColor=#9CC2E5;fontColor=#17365D;fontSize=16;align=left;verticalAlign=middle;spacingLeft=14;" value="社員がシステムにアクセスする際の図" vertex="1">
+          <mxGeometry height="44" width="2320" x="40" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="employee" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#5B9BD5;fontColor=#17365D;fontStyle=1;fontSize=21;align=center;verticalAlign=middle;" value="社員" vertex="1">
+          <mxGeometry height="88" width="2200" x="100" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="p71" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#2F75B5;fontColor=#17365D;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="P7-1 ログイン情報入力" vertex="1">
+          <mxGeometry height="145" width="250" x="160" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="p72" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#2F75B5;fontColor=#17365D;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="P7-2 ログイン認証" vertex="1">
+          <mxGeometry height="145" width="250" x="750" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="p73" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#2F75B5;fontColor=#17365D;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="P7-3 ログイン状態管理" vertex="1">
+          <mxGeometry height="145" width="250" x="1340" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="p74" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#2F75B5;fontColor=#17365D;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="P7-4 ログアウト" vertex="1">
+          <mxGeometry height="145" width="250" x="1670" y="685" as="geometry" />
+        </mxCell>
+        <mxCell id="d1_employee" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;bottom=0;left=1;right=1;fillColor=#FFF2CC;strokeColor=#BF9000;fontColor=#5F4B00;fontStyle=1;fontSize=15;align=center;verticalAlign=middle;" value="D1 社員マスタ" vertex="1">
+          <mxGeometry height="95" width="300" x="390" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="d71" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;bottom=0;left=1;right=1;fillColor=#FFF2CC;strokeColor=#BF9000;fontColor=#5F4B00;fontStyle=1;fontSize=15;align=center;verticalAlign=middle;" value="D7-1 ログイン状態データ" vertex="1">
+          <mxGeometry height="95" width="330" x="1015" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="e_emp_p71" edge="1" parent="1" source="employee" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#2F75B5;fontSize=13;fontColor=#17365D;labelBackgroundColor=#FFFFFF;exitX=0.085;exitY=1;entryX=0.5;entryY=0;" target="p71" value="社員ID・パスワード入力">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_p71_p72" edge="1" parent="1" source="p71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#7F8C8D;fontSize=13;fontColor=#4A4A4A;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="p72" value="ログイン情報">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_d1_p72" edge="1" parent="1" source="d1_employee" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#9E6B3A;fontSize=13;fontColor=#6F4E2E;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=1;exitDx=0;exitDy=0;" target="p72" value="社員ID・パスワード参照">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="650" />
+              <mxPoint x="875" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_p72_emp" edge="1" parent="1" source="p72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#7F8C8D;fontSize=13;fontColor=#4A4A4A;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.36;entryY=1;" target="employee" value="認証結果">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_p72_p73" edge="1" parent="1" source="p72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#7F8C8D;fontSize=13;fontColor=#4A4A4A;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="p73" value="認証済社員情報">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_p73_d71" edge="1" parent="1" source="p73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#7F8C8D;fontSize=13;fontColor=#4A4A4A;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="d71" value="ログイン状態登録">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1465" y="575" />
+              <mxPoint x="1180" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_emp_p74" edge="1" parent="1" source="employee" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#2F75B5;fontSize=13;fontColor=#17365D;labelBackgroundColor=#FFFFFF;exitX=0.77;exitY=1;entryX=0.5;entryY=0;" target="p74" value="ログアウト操作">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_d71_p74" edge="1" parent="1" source="d71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#9E6B3A;fontSize=13;fontColor=#6F4E2E;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.45;entryX=0;entryY=0.45;" target="p74" value="ログイン状態参照">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_p74_d71" edge="1" parent="1" source="p74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#7F8C8D;fontSize=13;fontColor=#4A4A4A;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=1;" target="d71" value="ログイン状態無効化">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1795" y="865" />
+              <mxPoint x="1180" y="865" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

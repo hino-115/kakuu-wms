@@ -1,0 +1,139 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="kakuu-p3-draft" name="P3_入庫管理_草案">
+    <mxGraphModel dx="2060" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3820" pageHeight="980" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#17365D;strokeColor=#17365D;fontColor=#FFFFFF;fontStyle=1;fontSize=28;align=left;verticalAlign=middle;spacingLeft=18;" value="KAKUU WMS｜詳細DFD P3 入庫管理" vertex="1">
+          <mxGeometry height="64" width="2950" x="40" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D9EAF7;strokeColor=#9CC2E5;fontColor=#17365D;fontSize=16;align=left;verticalAlign=middle;spacingLeft=14;" value="入庫対象確認から保管場所選択・入庫実績登録までのデータフローを示す。" vertex="1">
+          <mxGeometry height="44" width="2950" x="40" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="employee" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#5B9BD5;fontColor=#17365D;fontStyle=1;fontSize=21;align=center;verticalAlign=middle;" value="社員（入荷担当者）" vertex="1">
+          <mxGeometry height="88" width="2800" x="120" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="p31" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#2F75B5;fontColor=#17365D;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="P3-1 入庫対象確認" vertex="1">
+          <mxGeometry height="145" width="250" x="200" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="p32" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#2F75B5;fontColor=#17365D;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="P3-2 オリコン割当" vertex="1">
+          <mxGeometry height="145" width="250" x="600" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="p33" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#2F75B5;fontColor=#17365D;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="P3-3 ロット情報生成" vertex="1">
+          <mxGeometry height="145" width="250" x="1075" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="p34" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#2F75B5;fontColor=#17365D;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="P3-4 推奨保管場所算出" vertex="1">
+          <mxGeometry height="145" width="250" x="1520" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="p35" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#2F75B5;fontColor=#17365D;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="P3-5 保管場所選択" vertex="1">
+          <mxGeometry height="145" width="250" x="1940" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="p36" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#2F75B5;fontColor=#17365D;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="P3-6 入庫実績登録" vertex="1">
+          <mxGeometry height="145" width="250" x="2320" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="d22" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;bottom=0;left=1;right=1;fillColor=#FFF2CC;strokeColor=#BF9000;fontColor=#5F4B00;fontStyle=1;fontSize=15;align=center;verticalAlign=middle;" value="D2-2 入荷実績データ" vertex="1">
+          <mxGeometry height="95" width="300" x="175" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="m_oricon" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;bottom=0;left=1;right=1;fillColor=#FFF2CC;strokeColor=#BF9000;fontColor=#5F4B00;fontStyle=1;fontSize=15;align=center;verticalAlign=middle;" value="オリコンマスタ" vertex="1">
+          <mxGeometry height="95" width="300" x="575" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="m_product" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;bottom=0;left=1;right=1;fillColor=#FFF2CC;strokeColor=#BF9000;fontColor=#5F4B00;fontStyle=1;fontSize=15;align=center;verticalAlign=middle;" value="商品・SKUマスタ" vertex="1">
+          <mxGeometry height="95" width="300" x="1040" y="324" as="geometry" />
+        </mxCell>
+        <mxCell id="m_location" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;bottom=0;left=1;right=1;fillColor=#FFF2CC;strokeColor=#BF9000;fontColor=#5F4B00;fontStyle=1;fontSize=15;align=center;verticalAlign=middle;" value="ロケーション・棚段マスタ" vertex="1">
+          <mxGeometry height="95" width="330" x="1680" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="d31" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;bottom=0;left=1;right=1;fillColor=#FFF2CC;strokeColor=#BF9000;fontColor=#5F4B00;fontStyle=1;fontSize=15;align=center;verticalAlign=middle;" value="D3-1 ロットデータ" vertex="1">
+          <mxGeometry height="95" width="300" x="1050" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="d32" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;bottom=0;left=1;right=1;fillColor=#FFF2CC;strokeColor=#BF9000;fontColor=#5F4B00;fontStyle=1;fontSize=15;align=center;verticalAlign=middle;" value="D3-2 在庫データ" vertex="1">
+          <mxGeometry height="95" width="300" x="2560" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="d33" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;bottom=0;left=1;right=1;fillColor=#FFF2CC;strokeColor=#BF9000;fontColor=#5F4B00;fontStyle=1;fontSize=15;align=center;verticalAlign=middle;" value="D3-3 入庫データ" vertex="1">
+          <mxGeometry height="95" width="300" x="2560" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="e_emp_p31" edge="1" parent="1" source="employee" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#2F75B5;fontSize=13;fontColor=#17365D;labelBackgroundColor=#FFFFFF;exitX=0.073;exitY=0.964;entryX=0.5;entryY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="p31" value="入庫対象確認操作">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_emp_p32" edge="1" parent="1" source="employee" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#2F75B5;fontSize=13;fontColor=#17365D;labelBackgroundColor=#FFFFFF;exitX=0.215;exitY=1.002;entryX=0.5;entryY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="p32" value="オリコン割当操作">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_emp_p35" edge="1" parent="1" source="employee" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#2F75B5;fontSize=13;fontColor=#17365D;labelBackgroundColor=#FFFFFF;exitX=0.695;exitY=1.02;entryX=0.5;entryY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="p35" value="保管場所選択操作">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_emp_p36" edge="1" parent="1" source="employee" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#2F75B5;fontSize=13;fontColor=#17365D;labelBackgroundColor=#FFFFFF;exitX=0.83;exitY=0.966;entryX=0.5;entryY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="p36" value="入庫実績登録操作">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_d22_p31" edge="1" parent="1" source="d22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#9E6B3A;fontSize=13;fontColor=#6F4E2E;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="p31" value="入荷実績情報参照">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_p31_p32" edge="1" parent="1" source="p31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#7F8C8D;fontSize=13;fontColor=#4A4A4A;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="p32" value="入庫対象情報">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_oricon_p32" edge="1" parent="1" source="m_oricon" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#9E6B3A;fontSize=13;fontColor=#6F4E2E;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="p32" value="オリコン情報参照">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_p32_p33" edge="1" parent="1" source="p32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#7F8C8D;fontSize=13;fontColor=#4A4A4A;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="p33" value="オリコン割当情報">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_p33_d31" edge="1" parent="1" source="p33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#7F8C8D;fontSize=13;fontColor=#4A4A4A;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="d31" value="ロットデータ登録">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_p33_p34" edge="1" parent="1" source="p33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#7F8C8D;fontSize=13;fontColor=#4A4A4A;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="p34" value="ロット・入庫対象情報">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_product_p34" edge="1" parent="1" source="m_product" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#9E6B3A;fontSize=13;fontColor=#6F4E2E;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="p34" value="商品・SKU保管条件参照">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1556.6" y="371.6" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_location_p34" edge="1" parent="1" source="m_location" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#9E6B3A;fontSize=13;fontColor=#6F4E2E;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=0.5;entryY=1;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="p34" value="ロケーション・棚段情報参照">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_d32_p34" edge="1" parent="1" source="d32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#9E6B3A;fontSize=13;fontColor=#6F4E2E;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=1;entryY=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="p34" value="現在庫・保管状況参照">
+          <mxGeometry relative="1" x="0.4378" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="2710" y="295" />
+              <mxPoint x="1733.4" y="295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_p34_p35" edge="1" parent="1" source="p34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#7F8C8D;fontSize=13;fontColor=#4A4A4A;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="p35" value="推奨保管場所情報">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_location_p35" edge="1" parent="1" source="m_location" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#9E6B3A;fontSize=13;fontColor=#6F4E2E;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="p35" value="保管場所候補参照">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2065" y="867.6" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_p35_p36" edge="1" parent="1" source="p35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#7F8C8D;fontSize=13;fontColor=#4A4A4A;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="p36" value="選択済保管場所・入庫情報">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_d31_p36" edge="1" parent="1" source="d31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#9E6B3A;fontSize=13;fontColor=#6F4E2E;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.42;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="p36" value="ロット情報参照">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1470" y="765" />
+              <mxPoint x="1470" y="715" />
+              <mxPoint x="2356.6" y="715" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_p36_d32" edge="1" parent="1" source="p36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#7F8C8D;fontSize=13;fontColor=#4A4A4A;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="d32" value="在庫データ登録・更新">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2710" y="557.6" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_p36_d33" edge="1" parent="1" source="p36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#7F8C8D;fontSize=13;fontColor=#4A4A4A;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="d33" value="入庫データ登録">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

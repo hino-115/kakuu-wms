@@ -1,0 +1,144 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="kakuu-p4-entities" name="P4_在庫ロット管理">
+    <mxGraphModel dx="1717" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3620" pageHeight="980" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#17365D;strokeColor=#17365D;fontColor=#FFFFFF;fontStyle=1;fontSize=28;align=left;verticalAlign=middle;spacingLeft=18;" value="KAKUU WMS｜詳細DFD P4 在庫・ロット管理" vertex="1">
+          <mxGeometry height="64" width="2540" x="40" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D9EAF7;strokeColor=#9CC2E5;fontColor=#17365D;fontSize=16;align=left;verticalAlign=middle;spacingLeft=14;" value="在庫・ロット情報の検索・確認・修正・数量調整に関するデータフローを示す。" vertex="1">
+          <mxGeometry height="44" width="2540" x="40" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="employee" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#5B9BD5;fontColor=#17365D;fontStyle=1;fontSize=21;align=center;verticalAlign=middle;" value="社員（在庫管理担当者）" vertex="1">
+          <mxGeometry height="88" width="2380" x="170" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="p41" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#2F75B5;fontColor=#17365D;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="P4-1 在庫検索・確認" vertex="1">
+          <mxGeometry height="145" width="250" x="750" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="p42" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#2F75B5;fontColor=#17365D;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="P4-2 在庫詳細確認" vertex="1">
+          <mxGeometry height="145" width="250" x="950" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="p43" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#2F75B5;fontColor=#17365D;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="P4-3 ロット検索・確認" vertex="1">
+          <mxGeometry height="145" width="250" x="570" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="p44" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#2F75B5;fontColor=#17365D;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="P4-4 ロット詳細確認" vertex="1">
+          <mxGeometry height="145" width="250" x="1800" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="p45" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#2F75B5;fontColor=#17365D;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="P4-5 ロット情報修正" vertex="1">
+          <mxGeometry height="145" width="250" x="2010" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="p46" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#2F75B5;fontColor=#17365D;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="P4-6 在庫数量調整" vertex="1">
+          <mxGeometry height="145" width="250" x="2190" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;bottom=0;left=1;right=1;fillColor=#FFF2CC;strokeColor=#BF9000;fontColor=#5F4B00;fontStyle=1;fontSize=15;align=center;verticalAlign=middle;" value="D1 マスタデータ" vertex="1">
+          <mxGeometry height="95" width="300" x="210" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="d31" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;bottom=0;left=1;right=1;fillColor=#FFF2CC;strokeColor=#BF9000;fontColor=#5F4B00;fontStyle=1;fontSize=15;align=center;verticalAlign=middle;" value="D3-1 ロットデータ" vertex="1">
+          <mxGeometry height="95" width="300" x="1320" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="d32" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;bottom=0;left=1;right=1;fillColor=#FFF2CC;strokeColor=#BF9000;fontColor=#5F4B00;fontStyle=1;fontSize=15;align=center;verticalAlign=middle;" value="D3-2 在庫データ" vertex="1">
+          <mxGeometry height="95" width="300" x="1320" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="d33" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;bottom=0;left=1;right=1;fillColor=#FFF2CC;strokeColor=#BF9000;fontColor=#5F4B00;fontStyle=1;fontSize=15;align=center;verticalAlign=middle;" value="D3-3 入庫データ" vertex="1">
+          <mxGeometry height="95" width="300" x="1320" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="e_emp_p41" edge="1" parent="1" source="employee" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#2F75B5;fontSize=13;fontColor=#17365D;labelBackgroundColor=#FFFFFF;exitX=0.296;exitY=0.977;entryX=0.5;entryY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="p41" value="在庫検索・確認操作">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_emp_p42" edge="1" parent="1" source="employee" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#2F75B5;fontSize=13;fontColor=#17365D;labelBackgroundColor=#FFFFFF;exitX=0.381;exitY=0.992;entryX=0.5;entryY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="p42" value="在庫詳細確認操作">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_emp_p43" edge="1" parent="1" source="employee" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#2F75B5;fontSize=13;fontColor=#17365D;labelBackgroundColor=#FFFFFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.22;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;" target="p43" value="ロット検索・確認操作">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="695" y="255" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_emp_p44" edge="1" parent="1" source="employee" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#2F75B5;fontSize=13;fontColor=#17365D;labelBackgroundColor=#FFFFFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.737;exitY=0.962;exitDx=0;exitDy=0;exitPerimeter=0;" target="p44" value="ロット詳細確認操作">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1930" y="289.83" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_emp_p45" edge="1" parent="1" source="employee" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#2F75B5;fontSize=13;fontColor=#17365D;labelBackgroundColor=#FFFFFF;exitX=0.826;exitY=0.977;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="p45" value="ロット情報修正操作">
+          <mxGeometry relative="1" x="-0.3178" y="-1" as="geometry">
+            <mxPoint y="1" as="offset" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_emp_p46" edge="1" parent="1" source="employee" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#2F75B5;fontSize=13;fontColor=#17365D;labelBackgroundColor=#FFFFFF;exitX=0.9;exitY=1;entryX=0.5;entryY=0;" target="p46" value="在庫数量調整操作">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_d1_p41" edge="1" parent="1" source="d1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#9E6B3A;fontSize=13;fontColor=#6F4E2E;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.35;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="p41" value="商品・SKU情報参照">
+          <mxGeometry relative="1" x="-0.2526" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_d1_p43" edge="1" parent="1" source="d1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#9E6B3A;fontSize=13;fontColor=#6F4E2E;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="p43" value="商品・SKU情報参照">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="842.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_d32_p41" edge="1" parent="1" source="d32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#9E6B3A;fontSize=13;fontColor=#6F4E2E;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="p41" value="在庫情報参照">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_d32_p42" edge="1" parent="1" source="d32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#9E6B3A;fontSize=13;fontColor=#6F4E2E;labelBackgroundColor=#FFFFFF;exitX=0.27;exitY=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="p42" value="在庫詳細情報参照">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1401" y="560" />
+              <mxPoint x="1075" y="560" />
+            </Array>
+            <mxPoint x="1095" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_d33_p42" edge="1" parent="1" source="d33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#9E6B3A;fontSize=13;fontColor=#6F4E2E;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="p42" value="入庫情報参照">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_d33_p44" edge="1" parent="1" source="d33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#9E6B3A;fontSize=13;fontColor=#6F4E2E;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="p44" value="入庫情報参照">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1470" y="320" />
+              <mxPoint x="1836.17" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_d31_p43" edge="1" parent="1" source="d31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#9E6B3A;fontSize=13;fontColor=#6F4E2E;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="p43" value="ロット情報参照">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_d31_p44" edge="1" parent="1" source="d31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#9E6B3A;fontSize=13;fontColor=#6F4E2E;labelBackgroundColor=#FFFFFF;exitX=0.75;exitY=0;entryX=0;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="p44" value="ロット詳細情報参照">
+          <mxGeometry relative="1" x="-0.0958" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1545" y="760" />
+              <mxPoint x="1750" y="760" />
+              <mxPoint x="1750" y="402.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_d31_p45" edge="1" parent="1" source="d31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#9E6B3A;fontSize=13;fontColor=#6F4E2E;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.28;entryX=0.031;entryY=0.368;entryDx=0;entryDy=0;entryPerimeter=0;" target="p45" value="ロット情報参照">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_p45_d31" edge="1" parent="1" source="p45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#7F8C8D;fontSize=13;fontColor=#4A4A4A;labelBackgroundColor=#FFFFFF;exitX=0.004;exitY=0.644;entryX=1;entryY=0.72;exitDx=0;exitDy=0;exitPerimeter=0;" target="d31" value="ロット情報更新">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_d32_p46" edge="1" parent="1" source="d32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#9E6B3A;fontSize=13;fontColor=#6F4E2E;labelBackgroundColor=#FFFFFF;exitX=0.75;exitY=0;entryX=0;entryY=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="p46" value="在庫数量参照">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1545" y="550" />
+              <mxPoint x="2226.17" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_p46_d32" edge="1" parent="1" source="p46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#7F8C8D;fontSize=13;fontColor=#4A4A4A;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="d32" value="在庫数量更新">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2190" y="637.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
