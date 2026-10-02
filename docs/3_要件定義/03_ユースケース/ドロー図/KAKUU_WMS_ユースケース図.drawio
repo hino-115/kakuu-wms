@@ -410,7 +410,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KAKUU-UC-04" name="04_出荷">
-    <mxGraphModel dx="1717" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="1910" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="2943" dy="1629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="1910" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -602,12 +602,12 @@
             <mxGeometry height="51" width="660" x="475.5" y="1665" as="geometry" />
           </mxCell>
         </object>
-        <object label="UC-047　引当内容を変更する" tooltip="UC-033｜出荷情報を修正する&#xa;検品実数に合わせるなど、出荷確定前に出荷情報を修正する。" ucId="UC-033" ucName="出荷情報を修正する" description="検品実数に合わせるなど、出荷確定前に出荷情報を修正する。" actor="出荷担当者" category="出荷管理" id="usecase-UC-033">
+        <object label="UC-047　引当内容を変更する" tooltip="UC-047｜引当内容を変更する&#xa;登録済みの引当内容を選択し、対象在庫や引当数量を変更する。" ucId="UC-047" ucName="引当内容を変更する" description="登録済みの引当内容を選択し、対象在庫や引当数量を変更する。" actor="出荷担当者" category="出荷管理" id="usecase-UC-033">
           <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#4F8DB9;strokeWidth=1.7;fontSize=15;fontStyle=1;fontFamily=Arial;fontColor=#244461;spacing=7;shadow=0;" vertex="1">
             <mxGeometry height="51" width="660" x="468.5" y="1031.5" as="geometry" />
           </mxCell>
         </object>
-        <object label="UC-048　引当を解除する" tooltip="UC-034｜出荷を確定する&#xa;検品と必要な修正が完了した出荷情報を確定する。" ucId="UC-034" ucName="出荷を確定する" description="検品と必要な修正が完了した出荷情報を確定する。" actor="出荷担当者" category="出荷管理" id="usecase-UC-034">
+        <object label="UC-048　引当を解除する" tooltip="UC-048｜引当を解除する&#xa;不要になった引当を選択し、引当状態を解除する。" ucId="UC-048" ucName="引当を解除する" description="不要になった引当を選択し、引当状態を解除する。" actor="出荷担当者" category="出荷管理" id="usecase-UC-034">
           <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#4F8DB9;strokeWidth=1.7;fontSize=15;fontStyle=1;fontFamily=Arial;fontColor=#244461;spacing=7;shadow=0;" vertex="1">
             <mxGeometry height="51" width="660" x="471" y="1101.5" as="geometry" />
           </mxCell>
@@ -650,7 +650,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KAKUU-UC-05" name="05_システム運用">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1300" pageHeight="1316" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="2060" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="1316" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -798,7 +798,7 @@
         <mxCell id="page-label" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=11;fontColor=#5C7489;fontStyle=0;align=right;verticalAlign=middle;spacing=0;" value="KAKUU　／　要件定義　／　5 / 5" vertex="1">
           <mxGeometry height="28" width="327" x="890" y="95" as="geometry" />
         </mxCell>
-        <object label="UC-049　オリコンマスタを管理する" tooltip="UC-043｜社員マスタを管理する&#xa;社員情報およびログインに必要な情報を管理する。" ucId="UC-043" ucName="社員マスタを管理する" description="社員情報およびログインに必要な情報を管理する。" actor="システム運用管理者" category="マスタ管理" id="5kvFamapw0sxo8aGuGSK-1">
+        <object label="UC-049　オリコンマスタを管理する" tooltip="UC-049｜オリコンマスタを管理する&#xa;倉庫内で使用するオリコンの基本情報を登録・変更・参照する。" ucId="UC-049" ucName="オリコンマスタを管理する" description="倉庫内で使用するオリコンの基本情報を登録・変更・参照する。" actor="システム運用管理者" category="マスタ管理" id="5kvFamapw0sxo8aGuGSK-1">
           <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#4F8DB9;strokeWidth=1.7;fontSize=15;fontStyle=1;fontFamily=Arial;fontColor=#244461;spacing=7;shadow=0;" vertex="1">
             <mxGeometry height="51" width="660" x="470" y="1180" as="geometry" />
           </mxCell>
