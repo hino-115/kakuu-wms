@@ -410,7 +410,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KAKUU-UC-04" name="04_出荷">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1300" pageHeight="1910" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1717" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="1910" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -634,13 +634,13 @@
             <mxGeometry height="51" width="660" x="469.5" y="1875" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="pM9kHrrX6-N8Fqn-wrP_-2" edge="1" parent="1" style="endArrow=none;startArrow=none;strokeColor=#84A9C6;strokeWidth=1.15;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Xkh13rYiaHtwSslpWVWe-5">
+        <mxCell id="pM9kHrrX6-N8Fqn-wrP_-2" edge="1" parent="1" source="role-actor" style="endArrow=none;startArrow=none;strokeColor=#84A9C6;strokeWidth=1.15;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="Xkh13rYiaHtwSslpWVWe-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="220" y="1130" as="sourcePoint" />
             <mxPoint x="558" y="2190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pM9kHrrX6-N8Fqn-wrP_-3" edge="1" parent="1" style="endArrow=none;startArrow=none;strokeColor=#84A9C6;strokeWidth=1.15;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Xkh13rYiaHtwSslpWVWe-6">
+        <mxCell id="pM9kHrrX6-N8Fqn-wrP_-3" edge="1" parent="1" source="role-actor" style="endArrow=none;startArrow=none;strokeColor=#84A9C6;strokeWidth=1.15;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="Xkh13rYiaHtwSslpWVWe-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="220" y="1130" as="sourcePoint" />
             <mxPoint x="528" y="2210" as="targetPoint" />
@@ -650,7 +650,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KAKUU-UC-05" name="05_システム運用">
-    <mxGraphModel dx="2060" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="1316" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1300" pageHeight="1316" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -803,6 +803,12 @@
             <mxGeometry height="51" width="660" x="470" y="1180" as="geometry" />
           </mxCell>
         </object>
+        <mxCell id="r44GT6oZDrEN6BMraRva-1" edge="1" parent="1" style="endArrow=none;startArrow=none;strokeColor=#84A9C6;strokeWidth=1.15;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5kvFamapw0sxo8aGuGSK-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="840" as="sourcePoint" />
+            <mxPoint x="493" y="1372" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
