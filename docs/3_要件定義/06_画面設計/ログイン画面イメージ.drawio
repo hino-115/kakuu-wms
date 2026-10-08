@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="ページ-1" id="FDGlz0vnB7vnx8-NIZlV">
+    <mxGraphModel dx="1212" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L7krrtkzd2Fu891DXcTj-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ロゴなどを入れる" vertex="1">
+          <mxGeometry height="280" width="383.15" x="40" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L7krrtkzd2Fu891DXcTj-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ログインID" vertex="1">
+          <mxGeometry height="40" width="120" x="294" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="L7krrtkzd2Fu891DXcTj-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ログインパスワード" vertex="1">
+          <mxGeometry height="40" width="120" x="294" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="L7krrtkzd2Fu891DXcTj-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ログインボタン" vertex="1">
+          <mxGeometry height="40" width="120" x="294" y="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

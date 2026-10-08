@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="ページ-1" id="FDGlz0vnB7vnx8-NIZlV">
+    <mxGraphModel dx="1212" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L7krrtkzd2Fu891DXcTj-1" connectable="0" parent="1" style="group;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="280" width="383.16" x="20" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="T-va4RH9t3jz1AvVmUre-3" parent="L7krrtkzd2Fu891DXcTj-1" style="rounded=0;whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;div&gt;CMN-002&lt;/div&gt;&lt;div&gt;共通メニュー&lt;/div&gt;&lt;div&gt;CMN-003～&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;CMN-006&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;管理メニュー&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="240.69951734192617" width="73.68352571691615" y="39.298245614035096" as="geometry" />
+        </mxCell>
+        <mxCell id="T-va4RH9t3jz1AvVmUre-4" parent="L7krrtkzd2Fu891DXcTj-1" style="rounded=0;whiteSpace=wrap;html=1;aspect=fixed;" value="SCR操作領域" vertex="1">
+          <mxGeometry height="29.47341028676647" width="309.47080801104795" x="73.68461538461537" y="39.298245614035096" as="geometry" />
+        </mxCell>
+        <mxCell id="T-va4RH9t3jz1AvVmUre-5" parent="L7krrtkzd2Fu891DXcTj-1" style="rounded=0;whiteSpace=wrap;html=1;aspect=fixed;" value="SCR表示領域" vertex="1">
+          <mxGeometry height="211.2261070551597" width="309.47080801104795" x="73.68461538461537" y="68.77192982456143" as="geometry" />
+        </mxCell>
+        <mxCell id="T-va4RH9t3jz1AvVmUre-6" parent="L7krrtkzd2Fu891DXcTj-1" style="rounded=0;whiteSpace=wrap;html=1;aspect=fixed;" value="CMN-001:共通ヘッダー" vertex="1">
+          <mxGeometry height="39.297880382355295" width="383.15433372796406" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
