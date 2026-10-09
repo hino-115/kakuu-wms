@@ -1,13 +1,25 @@
 <mxfile host="app.diagrams.net" agent="ChatGPT">
   <diagram id="kakuu-p4-entities" name="P4_在庫ロット管理">
-    <mxGraphModel dx="1717" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3620" pageHeight="980" math="0" shadow="0">
+    <mxGraphModel dx="2575" dy="1425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3620" pageHeight="980" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tQ4AWVtKMTAURkIji4_w-3" edge="1" parent="1" source="tQ4AWVtKMTAURkIji4_w-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#7F8C8D;fontSize=13;fontColor=#4A4A4A;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.25;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="d32" value="在庫数量更新">
+          <mxGeometry relative="1" x="0.6762" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="427.5" />
+              <mxPoint x="570" y="540" />
+              <mxPoint x="1030" y="540" />
+              <mxPoint x="1030" y="613.8" />
+            </Array>
+            <mxPoint x="1080" y="530" as="sourcePoint" />
+            <mxPoint x="510" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="title" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#17365D;strokeColor=#17365D;fontColor=#FFFFFF;fontStyle=1;fontSize=28;align=left;verticalAlign=middle;spacingLeft=18;" value="KAKUU WMS｜詳細DFD P4 在庫・ロット管理" vertex="1">
           <mxGeometry height="64" width="2540" x="40" y="25" as="geometry" />
         </mxCell>
-        <mxCell id="subtitle" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D9EAF7;strokeColor=#9CC2E5;fontColor=#17365D;fontSize=16;align=left;verticalAlign=middle;spacingLeft=14;" value="在庫・ロット情報の検索・確認・修正・数量調整に関するデータフローを示す。" vertex="1">
+        <mxCell id="subtitle" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D9EAF7;strokeColor=#9CC2E5;fontColor=#17365D;fontSize=16;align=left;verticalAlign=middle;spacingLeft=14;" value="在庫・ロット情報の検索・確認・修正・数量調整・移動に関するデータフローを示す。" vertex="1">
           <mxGeometry height="44" width="2540" x="40" y="98" as="geometry" />
         </mxCell>
         <mxCell id="employee" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#5B9BD5;fontColor=#17365D;fontStyle=1;fontSize=21;align=center;verticalAlign=middle;" value="社員（在庫管理担当者）" vertex="1">
@@ -136,6 +148,24 @@
             <Array as="points">
               <mxPoint x="2190" y="637.5" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQ4AWVtKMTAURkIji4_w-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#2F75B5;fontColor=#17365D;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" value="P4-7 在庫移動" vertex="1">
+          <mxGeometry height="145" width="250" x="260" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="tQ4AWVtKMTAURkIji4_w-2" edge="1" parent="1" source="d1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#9E6B3A;fontSize=13;fontColor=#6F4E2E;labelBackgroundColor=#FFFFFF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="tQ4AWVtKMTAURkIji4_w-1" value="棚情報・棚格納上限">
+          <mxGeometry relative="1" x="-0.2526" y="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="450" y="560" as="sourcePoint" />
+            <mxPoint x="800" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQ4AWVtKMTAURkIji4_w-4" edge="1" parent="1" source="employee" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#2F75B5;fontSize=13;fontColor=#17365D;labelBackgroundColor=#FFFFFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.089;exitY=0.965;exitDx=0;exitDy=0;exitPerimeter=0;" target="tQ4AWVtKMTAURkIji4_w-1" value="在庫移動操作">
+          <mxGeometry relative="1" x="-0.2597" y="-2" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+            <mxPoint x="385" y="280" as="sourcePoint" />
+            <mxPoint x="691" y="906" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
