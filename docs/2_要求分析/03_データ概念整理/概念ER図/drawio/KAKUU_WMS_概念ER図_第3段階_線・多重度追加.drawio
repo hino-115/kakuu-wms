@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="ChatGPT">
   <diagram id="concept-er-stage1" name="第3段階_仮配置_線・多重度">
-    <mxGraphModel dx="1212" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1450" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1272" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1450" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -114,22 +114,16 @@
             <mxPoint y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rel_5" edge="1" parent="1" source="product" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="receiving_detail" value="">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="225" y="310" />
-              <mxPoint x="530" y="310" />
-              <mxPoint x="530" y="270" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="rel_5" edge="1" parent="1" source="product" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="lot" value="">
+          <mxGeometry relative="1" x="-0.2781" as="geometry" />
         </mxCell>
         <mxCell id="rel_5_s" connectable="0" parent="rel_5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;" value="1" vertex="1">
-          <mxGeometry relative="1" x="-0.82" as="geometry">
+          <mxGeometry relative="1" x="-0.4483" as="geometry">
             <mxPoint y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rel_5_t" connectable="0" parent="rel_5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;" value="0..*" vertex="1">
-          <mxGeometry relative="1" x="0.82" as="geometry">
+          <mxGeometry relative="1" x="0.5285" as="geometry">
             <mxPoint y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
@@ -146,20 +140,21 @@
             <mxPoint y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rel_8" edge="1" parent="1" source="product" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="shipping_detail" value="">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="rel_8" edge="1" parent="1" source="lot" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="shipping_detail" value="">
+          <mxGeometry relative="1" x="0.0006" as="geometry">
             <Array as="points">
-              <mxPoint x="720" y="374.06" />
+              <mxPoint x="525" y="374.1" />
+              <mxPoint x="720" y="374.1" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="rel_8_s" connectable="0" parent="rel_8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;" value="1" vertex="1">
-          <mxGeometry relative="1" x="-0.82" as="geometry">
+          <mxGeometry relative="1" x="-0.8227" as="geometry">
             <mxPoint y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rel_8_t" connectable="0" parent="rel_8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;" value="0..*" vertex="1">
-          <mxGeometry relative="1" x="0.82" as="geometry">
+          <mxGeometry relative="1" x="0.7226" as="geometry">
             <mxPoint y="16" as="offset" />
           </mxGeometry>
         </mxCell>
